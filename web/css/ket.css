@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+
+.warp{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+        background-color: black;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px;
+	color: white;
+}
+
+ul li{
+	display: inline-block;
+	color: white;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.daftar{
+	position: absolute;
+	top: 55%;
+	left: 33%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.ulang{
+	position: absolute;
+	top: 62%;
+	left: 73%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+.judul{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 25px;
+	text-decoration: underline;
+}
+.nama{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}

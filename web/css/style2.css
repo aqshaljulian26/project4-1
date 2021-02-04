@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+	background-image: white;
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+		background-color:white;
+		text-align: right;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:blueviolet;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	background-color:blueviolet;
+	color: black;
+}
+.warp{
+	background-image: white;
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+#panel, #flip {
+  padding: 5px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+.cont{
+	position: absolute;
+	top: 40%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background-color: black;
+	border: 10px	
+}
+
+.name{
+	position: absolute;
+	top: 30%;
+	left: 28%;
+	transform: translate(-50%, -50%);
+}
+.nama{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.info {
+	position: absolute;
+	top: 50%;
+	left: 28%;
+	transform: translate(-50%, -50%);
+}
+.for {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color:blueviolet;
+	font-size: 70px;
+}
+.title h2{
+	color: green;
+	font-size: medium;
+	text-align: center;
+}
+
+.nama h4{
+	color: white;
+	font-size: 66px;
+	text-decoration: underline;
+}
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	color:blueviolet;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	
+	padding: 10px 20px;
+	color: black;
+	
+	transition: 0.5s;
+}
+
+.btn:hover{
+	background-color: greenyellow;
+	color: black;
+}
+
+.login{
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login-table{
+	border: 4px;
+	background-color: transparent;
+	align-content: center;
+	padding: 20px
+}
+
+.login-input{
+	background-color:transparent;
+	height: 50px; 
+	width: 150px; 
+	color: blueviolet;
+}
+
+.login-input:hover{
+	background-color: blueviolet;
+	color: black;
+}
+
+.daftar{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form{
+	color:blueviolet;
+	font-size: 66px;
+}

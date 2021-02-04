@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+	background-image: white;
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+        background-color:white;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 20px
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:blueviolet;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	background-color:blueviolet;
+	color: black;
+}
+.warp{
+	background-image: white;
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.logo{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+
+/*css yang baru ditambahin*/
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color:blueviolet;
+	font-size: 40px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	color:black;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid black;
+	padding: 10px 20px;
+	color: blueviolet;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.btn:hover{
+	background-color:blueviolet;
+	color: black;
+}
+
+.for {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+.login{
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+        color: transparent;
+	font-size: 66px;
+}
+
+.btnlogin{
+	position: absolute;
+	top: 180%;
+	left: 86%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+        color: white
+}
+.btndaftar{
+	position: absolute;
+	top: 180%;
+	left: 31%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+.up{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
